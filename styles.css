@@ -104,11 +104,11 @@ body {
   display: none;
 }
 #hero {
-  width: 100%;
+ width: 100%;
   height: 40%;
   display: flex;
+  align-items: center;
   overflow-x: auto;
-  padding-top: 40px;
 }
 
 #hero::-webkit-scrollbar {
@@ -121,9 +121,9 @@ body {
 }
 
 .elem {
-  flex-shrink: 0;
+flex-shrink: 0;
   width: 50%;
-  height: 100%;
+  height: 50%;
 }
 
 .elem:nth-of-type(1) {
@@ -145,8 +145,8 @@ body {
 }
 #hero h1 {
   font-weight: 400;
-  font-size: 10vw;
-  line-height: 10vw;
+  font-size: 8vw;
+  line-height: 8vw;
   margin-left: 70px;
 }
 
@@ -221,9 +221,10 @@ body {
   }
 
   #hero {
-    padding: 0;
+   padding: 0;
     gap: 50px;
     height: 40%;
+    align-items: center;
   }
 
   #hero::-webkit-scrollbar {
@@ -236,8 +237,8 @@ body {
   }
 
   .elem {
-    padding-top: 25%;
     width: 70%;
+    height: 50%;
   }
 
   .elem:nth-of-type(1) {
